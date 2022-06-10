@@ -1,0 +1,6 @@
+{
+  "coc.preferences.extensionUpdateCheck": "daily",
+  "eslint.probe": ["java"],
+  "eslint.autoFixOnSave": true,
+  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "vim", "java"]
+}
