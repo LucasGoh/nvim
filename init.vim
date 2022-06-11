@@ -2,12 +2,16 @@ source $HOME/.config/nvim/general/settings.vim
 source $HOME/.config/nvim/general/plugins.vim
 source $HOME/.config/nvim/general/mappings.vim
 source $HOME/.config/nvim/plugin-config/start-screen.vim
-source $HOME/.config/nvim/plugin-config/coc-settings.vim
+"source $HOME/.config/nvim/plugin-config/coc-settings.vim
 source $HOME/.config/nvim/plugin-config/emmet-snippets.vim
 source $HOME/.config/nvim/plugin-config/snippets.vim	
 source $HOME/.config/nvim/fzf.vim
 "source $HOME/.config/nvim/which-key.vim
 
+luafile /Users/gohlucas/.config/nvim/plugin-config/LSPSetting/lsp-comp.lua
+luafile /Users/gohlucas/.config/nvim/plugin-config/LSPSetting/lsp-config.lua
+source $HOME/.config/nvim/plugin-config/LSPSetting/lsp-mapping.vim
+luafile /Users/gohlucas/.config/nvim/plugin-config/LSPSetting/lsp-installer.lua
 
 
 "air-line
@@ -28,16 +32,16 @@ let g:NERDTreeDirArrowCollapsible="~"
 
 
 " coc config
-let g:coc_global_extensions = [
-  \ 'coc-pairs',
-  \ 'coc-java',
-  \ 'coc-tsserver',
-  \ 'coc-eslint', 
-  \ 'coc-lists',
-  \ 'coc-diagnostic',
-  \ 'coc-prettier', 
-  \ 'coc-marketplace',  
-  \ ]
+"let g:coc_global_extensions = [
+"  \ 'coc-pairs',
+"  \ 'coc-java',
+"  \ 'coc-tsserver',
+"  \ 'coc-eslint', 
+"  \ 'coc-lists',
+"  \ 'coc-diagnostic',
+"  \ 'coc-prettier', 
+"  \ 'coc-marketplace',  
+"  \ ]
 
 
 

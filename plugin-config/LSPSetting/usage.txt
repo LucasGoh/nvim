@@ -1,0 +1,7 @@
+#Caution
+#command line vim command     besure to add ()()()()()()()()()
+:lua vim.lsp.buf.xxxx()
+
+
+
+:lua vim.lsp.buf.codeaction...   

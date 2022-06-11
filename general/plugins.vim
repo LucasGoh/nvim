@@ -3,9 +3,9 @@
 
 call plug#begin()
 "LSP
-"Plug 'neovim/nvim-lspconfig' 
-"Plug 'williamboman/nvim-lsp-installer'
-"Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'neovim/nvim-lspconfig' 
+Plug 'williamboman/nvim-lsp-installer'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 "which which-key
 "Plug 'liuchengxu/vim-which-key', { 'on': ['WhichKey', 'WhichKey!'] }
@@ -14,20 +14,23 @@ call plug#begin()
 "Plug 'vim-test/vim-test'
 
 "autocomplete
-"Plug 'neovim/nvim-lspconfig'
-"Plug 'hrsh7th/cmp-nvim-lsp'
-"Plug 'hrsh7th/cmp-buffer'
-"Plug 'hrsh7th/cmp-path'
-"Plug 'hrsh7th/cmp-cmdline'
-"Plug 'hrsh7th/nvim-cmp'
+Plug 'neovim/nvim-lspconfig'
+Plug 'hrsh7th/cmp-nvim-lsp'
+Plug 'hrsh7th/cmp-buffer'
+Plug 'hrsh7th/cmp-path'
+Plug 'hrsh7th/cmp-cmdline'
+Plug 'hrsh7th/nvim-cmp'
 
 "safa
-"Plug 'glepnir/lspsaga.nvim', { 'branch': 'main' }
+Plug 'glepnir/lspsaga.nvim', { 'branch': 'main' }
+
+
+"coc
+"Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 "Coding
 Plug 'https://github.com/preservim/tagbar' "tagbar
 Plug 'http://github.com/tpope/vim-surround' " Surrounding ysw)
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 " A bunch of useful language related snippets (ultisnips is the engine).
 
