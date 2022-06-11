@@ -1,7 +1,12 @@
 #Caution
+##########LSP Engine   command
 #command line vim command     besure to add ()()()()()()()()()
 :lua vim.lsp.buf.xxxx()
 
 
 
 :lua vim.lsp.buf.codeaction...   
+
+
+############  lsp-comp
+should configure which snippet engine you're gonna use.
