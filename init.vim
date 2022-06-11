@@ -1,3 +1,7 @@
+
+"plugin install       PLUGINSTALL
+"LSPINFO       check if certain LSP installed, under that file
+
 source $HOME/.config/nvim/general/settings.vim
 source $HOME/.config/nvim/general/plugins.vim
 source $HOME/.config/nvim/general/mappings.vim
@@ -9,6 +13,7 @@ source $HOME/.config/nvim/fzf.vim
 "source $HOME/.config/nvim/which-key.vim
 
 luafile /Users/gohlucas/.config/nvim/plugin-config/LSPSetting/lsp-comp.lua
+"lsp-config     add server
 luafile /Users/gohlucas/.config/nvim/plugin-config/LSPSetting/lsp-config.lua
 source $HOME/.config/nvim/plugin-config/LSPSetting/lsp-mapping.vim
 luafile /Users/gohlucas/.config/nvim/plugin-config/LSPSetting/lsp-installer.lua

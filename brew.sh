@@ -9,6 +9,7 @@ trap 'echo Error at about $LINENO' ERR
 
 #plugin: ctrlpvim.github.io/ctrlp.vim
 brew install vim
+brew install inetutils #ftp telnet rsh syslogd .....
 #brew install tmux
 #-g copy default conf and add something, enable use mose to scroll.
 #echo "set -g mouse on" >> ~/tmux.conf 
@@ -18,6 +19,7 @@ brew install vim
 export CHEAT_CONFIG_PATH="~/.dotfiles/cheat/conf.yml"
 
 #install app 
+brew install rust
 
 :'
 brew install --cask spotify
